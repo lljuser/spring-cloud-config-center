@@ -61,15 +61,7 @@ spring:
       pool:
         min-idle: 5
         max-idle: 10
-        max-active: 10
-  rabbitmq:
-    host: 192.168.1.200
-    port: 5672
-    username: admin
-    password: admin
-    listener:
-      simple:
-        max-concurrency: 10
+        max-active: 10  
   kafka:
     bootstrap-servers: 10.1.1.240:9092,10.1.1.241:9092,10.1.1.242:9092
     consumer:
