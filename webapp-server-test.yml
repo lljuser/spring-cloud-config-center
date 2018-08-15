@@ -51,7 +51,14 @@ spring:
     properties:
       hibernate:
         dialect: org.hibernate.dialect.MySQL5Dialect
-
+  rabbitmq:
+    host: 192.168.1.200
+    port: 5672
+    username: admin
+    password: admin
+    listener:
+      simple:
+        max-concurrency: 10
   redis:
     host: 192.168.1.200
     port: 6379
