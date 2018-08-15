@@ -1,5 +1,5 @@
 spring:
-  myname: cctv
+  myname: cctv1234
   thymeleaf:
     cache: false
   datasource:
