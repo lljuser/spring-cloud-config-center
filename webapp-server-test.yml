@@ -1,5 +1,5 @@
 spring:
-  myname: llj
+  myname: hometest
   thymeleaf:
     cache: false
   servlet:
