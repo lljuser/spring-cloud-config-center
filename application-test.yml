@@ -1,5 +1,5 @@
 spring:
-  mycluster
+  mycluster: testcnabs
   rabbitmq:
     host: 192.168.1.200
     port: 5672
